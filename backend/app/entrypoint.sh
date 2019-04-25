@@ -11,5 +11,7 @@ while [[ $? != 0 ]]; do
 done
 echo "-> mongo is available, launching the backend"
 
+umask 000
+
 # run backend application
 python -OO -R /srv/kernelci-backend/app/server.py

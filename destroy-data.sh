@@ -11,5 +11,5 @@ if [ "$1" != "-y" ];then
     done
 fi
 echo "-> Remove volume..."
-docker volume rm kernelci_data
-docker volume rm kernelci_kci
+docker volume rm kernelcidockerlucj_data
+docker volume rm kernelcidockerlucj_kci
